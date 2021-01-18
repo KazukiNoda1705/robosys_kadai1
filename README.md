@@ -15,6 +15,10 @@ LED 緑色　1個
 ブレッドボード　1個  
 ジャンパー線  
   
+![IMG_5697](https://user-images.githubusercontent.com/73329238/104943099-987ca880-59f8-11eb-8ed7-7aa6319cb883.JPG)  
+Raspberry PiのGPIO 4番, 17番をLEDバーのアノードに接続する.　　
+緑色のLEDは, 17番と繋がっている. 
+
 # 実行手順
 ## インストール
 `git clone`  
@@ -29,3 +33,6 @@ LEDが1つ点灯する
 `echo H > /dev/myled0`  
 LEDが全て消灯する  
 `echo E > /dev/myled0`  
+
+# 映像
+[youtube](https://youtu.be/YrYsSWS5VXU)
