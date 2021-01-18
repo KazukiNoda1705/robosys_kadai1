@@ -5,21 +5,13 @@
 講義内で作成したデバイスドライバのプログラム. 
 
 # 環境
-Raspberry Pi4
+Raspberry Pi4  
 Ubuntu 20.04　LTS
 
 # 使用した物
-LED 緑色　1個
-青色バーLED　1個
-抵抗　330Ω　3個
-ブレッドボード　1個
-ジャンパー線
+LED 緑色　1個  
+青色バーLED　1個  
+抵抗　330Ω　3個  
+ブレッドボード　1個  
+ジャンパー線  
 
-# 実行手順
-```
-git clone　
-cd myled
-make
-sudo insmod myled.ko
-sudo chmod 666 /dev/myled0 
-```
