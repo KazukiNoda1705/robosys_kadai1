@@ -16,7 +16,7 @@ LED 緑色　1個
 ジャンパー線  
   
 ![IMG_5697](https://user-images.githubusercontent.com/73329238/104943099-987ca880-59f8-11eb-8ed7-7aa6319cb883.JPG)  
-Raspberry PiのGPIO 4番, 17番をLEDバーのアノードに接続する.　　
+Raspberry PiのGPIO 4番, 17番をLEDバーのアノードに接続  
 緑色のLEDは, 17番と繋がっている. 
 
 # 実行手順
