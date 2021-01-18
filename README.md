@@ -16,9 +16,10 @@ LED 緑色　1個
 ジャンパー線
 
 # 実行手順
+```
 git clone　
 cd myled
 make
 sudo insmod myled.ko
 sudo chmod 666 /dev/myled0 
-
+```
