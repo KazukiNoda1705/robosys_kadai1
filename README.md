@@ -21,7 +21,7 @@ Raspberry PiのGPIO 4番, 17番をLEDバーのアノードに接続する.　　
 
 # 実行手順
 ## インストール
-`git clone`  
+`git clone https://github.com/KazukiNoda1705/robosys_kadai1.git`  
 `make`  
 `sudo insmod myled.ko`  
 `sudo chmod 666 /dev/myled0`　　
